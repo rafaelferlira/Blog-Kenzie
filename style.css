@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: rgb(52,108,99);
+    background: radial-gradient(circle, rgba(52,108,99,1) 42%, rgba(61,68,69,1) 78%);
+}
+
+header{
+    background: rgb(52,108,99);
+    background: radial-gradient(circle, rgba(52,108,99,1) 0%, rgba(121,225,240,1) 100%);
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+h1{
+    font-size: 35px;
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+h2{
+    font-size: 25px;
+    opacity: 1;
+    padding-bottom: 15px;
+}
+
+h3{
+    font-size: 25px;
+    opacity: 1;
+    padding-bottom: 10px;
+}
+
+a{
+    color:black;
+    opacity: 1;
+    text-align: right;
+    text-decoration: none;
+    background-color: white;
+    padding: 5px;
+    margin-top: 200px;
+    line-height: 4;
+    font-weight: 700;
+    border-radius: 15px;
+}
+
+
+.escritor{
+    font-style: italic;
+    margin-top: 20px;
+}
+
+
+.style-post{
+    margin:20px 100px;
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+.style-form{
+    margin:20px 100px;
+    background-color: #0c5449;
+    border: solid white 2px;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.style-input{
+    line-height: 3;
+    
+}
+.styleinput-email{
+    width: 250px;
+    height: 30px;
+    border-radius: 10px ;
+    border: solid #04096e 5px;
+    font-size: 15px;
+}
+
+.style-button{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px ;
+    font-size: 20px;
+    background-color: #04096e;
+    color: white;
+    opacity: 0.9;
+    border: solid white 3px;
+}
+
